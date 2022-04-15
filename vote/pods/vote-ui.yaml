@@ -1,1 +1,13 @@
 
+apiVersion: v1
+kind: Pod
+metadata:
+  name: vote-ui
+  labels:
+    app: vote-ui
+spec:
+  containers:
+  - name: vote-ui
+    image: schwarzion/vote-ui:v1
+    ports:
+    - containerPort: 80
