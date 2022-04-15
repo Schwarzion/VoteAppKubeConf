@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: vote-ui
-    image: schwarzion/vote-ui:v1
+    image: schwarzion/vote-ui:v2
     ports:
     - containerPort: 80

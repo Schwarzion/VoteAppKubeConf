@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: vote
-    image: schwarzion/vote:v1
+    image: schwarzion/vote:v3
     ports:
     - containerPort: 80
